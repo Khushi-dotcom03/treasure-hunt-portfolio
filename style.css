@@ -1,0 +1,208 @@
+body {
+    background: url('./parchment.webp') no-repeat center/cover;
+    font-family: 'Pirata One', cursive;
+    color: #4B3B30; /* Old paper-like color */
+}
+
+.heading{
+    text-align: center;
+}
+h1{
+    text-shadow: 0 0 15px gold;
+}
+h2{
+    text-shadow: 0 0 15px gold;
+}
+
+h1:hover, h2:hover{
+    text-shadow: 0 0 10px aliceblue; /* Glowing effect like a treasure */
+}
+
+.intro{
+    width: 80%;  /* Adjust width as needed */
+    margin: auto; /* Centers the block */
+    text-align: justify;
+}
+.invitation{
+    text-align: center;
+}
+
+/*treasure box styling*/
+.treasure-box img{
+    width: 300px; /* Adjust size */
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 1000px;
+    box-shadow: 0 0 15px gold;  
+}
+
+img:hover{
+    
+    box-shadow: 0 0 20px aliceblue;
+}
+
+.dropdown{
+    list-style-type: circle;
+}
+
+nav {
+    background: #9e511b; /* Brown like an old map */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px dashed gold; /* Looks like a treasure map path */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+nav a:hover {
+    text-shadow: 0 0 10px gold; /* Glowing effect like a treasure */
+}
+
+.current {
+    color: gold; /* Highlights current section */
+}
+
+/* education section */
+#edu-heading{
+    text-align: center;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+}
+#edu-heading:hover{
+    transform: scale(1.05);
+    text-decoration: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+.education-main{
+    color: antiquewhite;
+    margin: 50px;
+}
+.education-subBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item{
+    display: inline-block;
+    padding: 10px;
+    width : 100vh;
+    margin: 10px;
+    border: 5px dashed gold;
+    background-color: #4B3B30;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside; 
+    text-align: center; 
+    padding: 0; 
+}
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+}
+
+/* experience and projects section */
+#exp-heading{
+    text-align: center;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+}
+#exp-heading:hover{
+    transform: scale(1.05);
+    text-decoration: 0 0 10px rgba(255, 215, 0, 0.8);
+
+}
+.exp-main{
+    color: antiquewhite;
+    margin: 100px;
+}
+.exp-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.exp-item{
+    display: inline-block;
+    padding: 10px;
+    width : 100vh;
+    margin: 10px;
+    border: 5px dashed gold;
+    background-color: #4B3B30;
+    margin-bottom: 40px;
+    text-align:left;
+}
+.exp-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+}
+
+/* skills section */
+#skills-heading{
+    text-align: center;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+}
+#skills-heading:hover{
+    transform: scale(1.05);
+    text-decoration: 0 0 10px rgba(255, 215, 0, 0.8);
+
+}
+.skills-container {
+    display: flex;
+    flex-direction: column; /* Stacks tables vertically */
+    align-items: center; /* Centers tables */
+    gap: 20px; /* Spacing between tables */
+    /* background-color: #4B3B30; */
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1); /* Slight transparency */
+    backdrop-filter: blur(5px); /* Adds blur effect */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+th {
+    background:#4B3B30;
+    color: antiquewhite;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 12px;
+    font-size: 1rem;
+    color: rgb(10, 6, 6);
+}
+
+tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+tr:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+td:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s ease-in-out;
+}
+table:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+}
