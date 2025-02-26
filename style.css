@@ -1,7 +1,7 @@
 body {
     background: url('./parchment.webp') no-repeat center/cover;
     font-family: 'Pirata One', cursive;
-    color: #4B3B30; /* Old paper-like color */
+    color: #000000; /* Old paper-like color */
 }
 
 .heading{
