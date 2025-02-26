@@ -80,14 +80,14 @@ nav a:hover {
 }
 .education-main{
     color: antiquewhite;
-    margin: 50px;
+
 }
 .education-subBlock{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 85vh;
 }
 
 .item{
@@ -123,7 +123,6 @@ ul {
 }
 .exp-main{
     color: antiquewhite;
-    margin: 100px;
 }
 .exp-sub{
     display: flex;
